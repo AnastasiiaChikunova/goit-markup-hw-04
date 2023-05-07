@@ -390,22 +390,26 @@ border-radius: 4px;
 .social-container{
   display: flex;
   justify-content: center;
-  justify-content: center;
+  gap: 16px;
+  }
+  .description-social{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--background-color-site);
+margin-bottom: 16px;
 
-}
-.social-subtitle{
-  font-size: 16px;
-  padding-bottom: 14px;
-  text-align: center;
-  flex-basis: 208px;
-}
+  }
+
 .footer-container{
   display: flex;
   justify-content: center;
   gap: 120px;
+  align-items: baseline;
 }
 .footer-container-left{
-  flex-basis: 264px;
+ gap: 120px;
 }
 
 
@@ -462,6 +466,14 @@ border-radius: 4px;
 .portfolio-item {
   border-top: none;
 }
+.portfolio-link{
+  display: block;
+}
+.portfolio-link :hover,
+.portfolio-link :focus{
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 .portfolio-cards {
   padding-top: 32px;
@@ -471,7 +483,4 @@ border-radius: 4px;
   border: 1px solid var(--border-buttoms-color);
   border-top: none;
 }
-.card-set-item {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+
