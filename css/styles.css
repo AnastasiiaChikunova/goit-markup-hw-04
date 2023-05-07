@@ -10,6 +10,7 @@
   --buttom-portfolio-text-color: #4d5ae5;
   --buttom-portfolio-background-color: #f4f4fd;
   --border-buttoms-color: #e7e9fc;
+  --customers-color :#8E8F99;
   --indent: 24px;
   --item: 3;
 }
@@ -254,6 +255,7 @@ img {
 border-radius: 4px;
 width: 264px;
 height: 112px;
+margin-bottom: 8px;
 }
 /**************************** section thre*************************************************************/
 .what-we-are-doing {
@@ -286,8 +288,7 @@ height: 112px;
 .description-cards {
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
+  
 }
 .description-team {
   text-align: center;
@@ -314,12 +315,18 @@ height: 112px;
   border-radius: 50%;
   
 }
+.social-link:hover,
+.social-link:focus{
+  background-color: var(--accent-color);
+}
 
 .cosial-pictures{
   fill: var(--logo-color-part-two-down);
 }
 /* *************************************************section five******************************************************* */
-
+.subtitle-customers{
+  line-height: 1.1;
+}
 .customers {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -347,7 +354,15 @@ border-radius: 80%;
 height: 88px;
 border: 1px solid #8E8F99;
 border-radius: 4px;
+color:var(--customers-color);
+
 }
+.customers-link:hover,
+.customers-link:focus{
+  color: var(--accent-color);
+
+}
+
 .customers-logos{
   fill: #8E8F99;
 }
