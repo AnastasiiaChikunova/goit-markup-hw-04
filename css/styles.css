@@ -191,9 +191,9 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1400px;
-  margin-left: auto;
+   margin-left: auto;
   margin-right: auto;
+  max-width: 1440px;
 }
 
 .hero-name {
@@ -396,6 +396,7 @@ color:var(--customers-color);
 }
 .social-subtitle{
   color: var(--background-color-site);
+  margin-bottom: 16px;
 }
 .social-link-footer:hover,
 .social-link-footer:focus{
@@ -404,8 +405,15 @@ color:var(--customers-color);
 
 .social-container{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 16px;
+  width: 208px;
+  
+  }
+  .menu-socisl-footer{
+    gap: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   .description-social{
 font-weight: 500;
@@ -414,7 +422,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--background-color-site);
 margin-bottom: 16px;
-
+text-align: center;
   }
 
 .footer-container{
@@ -484,8 +492,8 @@ margin-bottom: 16px;
 .portfolio-link{
   display: block;
 }
-.portfolio-link :hover,
-.portfolio-link :focus{
+.portfolio-link:hover,
+.portfolio-link:focus{
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
